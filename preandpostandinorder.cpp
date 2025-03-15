@@ -43,7 +43,8 @@ void postorder(struct node *root)
     }
     postorder(root->left);
     postorder(root->right);
-    cout << "\n"  << root->data << " ";
+    cout << "\n"
+         << root->data << " ";
 }
 
 int main()
